@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+forge "https://forgeapi.puppetlabs.com"
+
+mod 'puppetlabs-stdlib'
+
+mod 'ancillas-misc',
+  :git => 'https://github.com/ancillas/puppet-consul-test.git',
+  :path => 'site_modules/ancillas-misc'

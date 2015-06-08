@@ -1,0 +1,18 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    puppetlabs-stdlib (4.6.0)
+
+GIT
+  remote: https://github.com/ancillas/puppet-consul-test.git
+  path: site_modules/ancillas-misc
+  ref: master
+  sha: 0886a94119a757a824d207de0a67be785a8c9e8e
+  specs:
+    ancillas-misc (0.1.0)
+      puppetlabs-stdlib (>= 1.0.0)
+
+DEPENDENCIES
+  ancillas-misc (>= 0)
+  puppetlabs-stdlib (>= 0)
+
